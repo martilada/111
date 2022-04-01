@@ -1,0 +1,397 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #c0c0c0;
+}
+main{
+    min-width: 1440px;
+    background-color: #ffffff;
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;  /*отменяет маркеры*/
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;   /*устанавливает прозраченый фон*/
+    cursor: pointer;  /*чтоб было видно курсор*/
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1440px;
+    padding: 0px 0px;
+    margin: 0 auto;
+}
+.section1-section2{
+    width: 1440px;
+    height: 582px;
+    background-image: url(../img/Backgraund1.png);
+    background-repeat: no-repeat;
+
+}
+/*header*/
+.section1{
+margin-left: 135px;
+width: 1170px;
+padding-top: 22px;
+height: 90px;
+}
+
+.section1-nav{
+    margin-left: 420px;
+
+}
+.section1-btn {
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+   padding: 11px 17px;
+   color: #ffffff;
+    
+}
+.section1-list-item
+{
+font-size: 14px;
+Line-height: 24px;
+color: #ffffff;
+padding-top: 11px;
+
+}
+
+.section1-list-item:not(:last-child) {
+    margin-right: 40px;
+    
+}
+
+/*section2*/
+.section2-container{
+    color: #FFFFFF;
+    margin-top:  115px;
+}
+.section2-title{
+margin-left: 357px;
+font-weight: 700;
+font-size: 71px;
+line-height: 78px;
+}
+.section2-descr{
+margin-left: 527px; /*Шрифт может испортить*/
+font-weight: 700;
+font-size: 13px;
+line-height: 24px;
+width: 536px; 
+margin-top: -35px;
+}
+.section2-btn{
+ padding: 15px 30px;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #ffffff;
+background: #5AB963;
+border-radius: 4px;
+margin-left: 640px;
+margin-top: 60px;
+}
+/*section3*/
+.section3-title{
+margin-left: 135px;
+margin-top: 120px;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+width: 520px;
+}
+.section3-title-1{
+margin-top: -20px;
+margin-left: 135px;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+width: 520px;
+color: #999999;
+}
+.section3-items{
+    margin-top: 126px;
+    margin-left: 176px;
+}
+.section3-item-title{
+    margin-top: 25px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.section3-item-descr{
+    font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #999999;
+width: 272px;
+}
+.section3-item-title-1{
+margin-top: 30px;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.section3-item-title-2{
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    }
+.section3-img{
+    margin-top: 229px;
+    margin-left: 30px;
+}
+.li2{
+    margin-left: 125px;
+    }
+    .li3{
+        margin-left: 116px;
+    }
+   /*section4*/ 
+.section4 {
+    text-align: center;
+    height: 398px;
+}
+.section4-titl{
+    margin-left: 357px;
+    margin-top: 115px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+width: 685px;
+}
+.section4-titl-1{
+    margin-left: 357px;
+    margin-top: -16px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+width: 685px;
+color: #999999;
+}
+.section4-secure{
+    color: #5AB963;
+   font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+
+}
+/*section5*/
+.section5{
+    height: 1154px;
+}
+.preview-image-one{
+    margin-left: 135px;
+    margin-top: 120px;
+}
+.blog-preview-text-one{
+  margin-left: 100px;
+  margin-top: 123px;   
+}
+.blog-preview-title-one{
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+width: 362px;
+}
+.blog-preview-title-one-1
+{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 362px;
+    margin-top: -17px;
+    color: #999999;
+}
+.blog-preview-descr-one{
+    font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #999999;
+width: 360px;
+}
+.blog-preview-text-two{
+    margin-top: 93px;
+    margin-left: 365px;
+    
+}
+.preview-image-two{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.blog-preview-title-two{
+    width: 370px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+}
+.blog-preview-title-two-1{
+    width: 370px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #999999;
+margin-top:  -17px;
+
+}
+.blog-preview-descr-two{
+    width: 368px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #999999;
+}
+.section5-down{
+    text-align: center;
+
+    margin-top: 110px;
+}
+.section5-title{
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+margin-left: 548px;
+width: 344px;
+}
+.section5-descr{
+    margin-left: 619px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #5AB963;
+    width: 203px;
+}
+/*section6*/
+.section6{
+    height: 411px;
+}
+.blog-preview-descr-three{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 150px; 
+    margin-left: 135px;
+    color: #5AB963;
+    
+}
+.blog-preview-title-three{
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+margin-left: 135px;
+width: 483px;
+}
+.blog-preview-title-three-1{
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #999999;
+margin-left: 135px;
+margin-top: -13px;
+width: 483px;
+}
+
+.section6-btn{
+margin-left: 527px;  
+margin-top: 190px;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #ffffff;
+background: #5AB963;
+border-radius: 4px;
+padding: 15px 30px;
+}
+/*footer*/
+.footer{
+    background-color: #0A0E1A;
+    height: 399px;
+    width: 1440px;
+    
+}
+.footer-logo{
+    margin-left: 135px;
+    margin-top: 120px;
+}
+.footer-copy{
+    width: 235px;
+    margin-left: -126px;
+    margin-top: 165px;
+    color: #999999;
+}
+.footer-right{
+    margin-left: 350px;
+}
+.footer-list-one{
+    width: 105px;
+    color:#ffffff;
+    height: 129px;
+    margin-top: 120px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+.footer-item{
+    margin-bottom: 25px;
+    
+}
+.footer-list-two{
+    width: 100px;
+    color:#ffffff;
+    height: 129px;
+    margin-top: 120px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+.footer-list-three{
+    width: 182px;
+    color:#ffffff;
+    height: 129px;
+    margin-top: 120px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+.social{
+    margin-top: 122px;
+
+}
+.social-item-1{
+    margin-left: 21px;
+}
+.social-item-2{
+    margin-left: 18px;
+}
+
+
